@@ -1,0 +1,24 @@
+.nav-link {
+    color: rgba(0, 0, 0, 0.9)
+}
+
+.nav-link:hover {
+    color: rgb(152, 152, 152)
+}
+
+#textIn {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+#textIn>p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    /* background: url(); */
+}
