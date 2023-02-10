@@ -13,8 +13,8 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-white">
+  <header class="m sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
       <div class="container-fluid">
 
         <a href="#" class="navbar-brand mb-0 h1">Арабский язык</a>
@@ -43,26 +43,37 @@
     </nav>
   </header>
 
-  <section id="hero" class="d-flex align-items-center">
-    
+  <section id="for_img" class="d-flex align-items-center">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-6 col-md-8" id="textIn">
-          <p>Арабский язык</p>
-          <p>Таджвид</p>
+      <div class="row">
+        <div class="d-flex justify-content-center">
+          <p class="text-center text-white" >Арабский язык</p>
+          <p class="text-center text-white">Таджвид</p>
+        </div>
+        <div class="col-12">
+          <h1 class="text-center text-white" >Домашние задания</h1>
+          <h6 class="text-center text-white">Научим читать Коран</h6>
         </div>
       </div>
-
-      <div class="row justify-content-center">
-        <div class="col-md-6 col-md-8">
-          <h1>Домашние задания</h1>
-          <h2>по арабскому языку</h2>
+      <div class="row">
+        <div class="col-12">
+          <a href="" class="btn btn_itd btn-lg text-white">Приступить к домашней работе</a>
         </div>
       </div>
-
+    </div>
+      
 
     </div>
 
+  </section>
+
+  <section>
+    <p>stretch (default): stretch to fill the container (still respect min-width/max-width)
+      flex-start / start / self-start: items are placed at the start of the cross axis. The difference between these is subtle, and is about respecting the flex-direction rules or the writing-mode rules.
+      flex-end / end / self-end: items are placed at the end of the cross axis. The difference again is subtle and is about respecting flex-direction rules vs. writing-mode rules.
+      center: items are centered in the cross-axis
+      baseline: items are aligned such as their baselines align
+      The safe and unsafe modifier keywords can be used in conjunction with all the rest of these keywords (although note browser support), and deal with helping you prevent aligning elements such that the content becomes inaccessible.</p>
   </section>
 
 

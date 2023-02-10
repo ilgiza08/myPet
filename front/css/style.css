@@ -6,19 +6,19 @@
     color: rgb(152, 152, 152)
 }
 
-#textIn {
-    background-color: aqua;
-    display: flex;
-    flex-direction: row;
+section {
+    padding: 100px 0;
+    height: 85vh;    
 }
 
-#textIn>p {
+#for_img {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../images/modern-muslim-woman-in-hijab-in-office-room.jpg);
+    border-radius:  25px;
+    background-size: cover;
+}
+
+
+p {
     margin-left: 10px;
     margin-right: 10px;
-}
-
-#hero {
-    width: 100%;
-    height: 100vh;
-    /* background: url(); */
 }
