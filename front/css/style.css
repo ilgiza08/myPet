@@ -69,4 +69,31 @@ h1, h6 {
     margin: 15px 5px;
 } 
     
+@media screen and (max-width: 540px){
+    .course_text {
+        display: none;
+    }
+    .welcome_text {
+        display: flex;
+        background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, .9), 
+            transparent);
+        height: 55vh;
+        align-items: end;
+    }
+    h2 {
+        font-size: 32px;
+        color: white;
+    }
 
+    .btn-study {
+        width: 100%;
+        max-width: 539px;
+        border: solid white;
+        border-radius: 12px;
+    
+    } 
+
+
+}
