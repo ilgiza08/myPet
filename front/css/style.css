@@ -1,3 +1,8 @@
+/* Серый цвет фона*/
+.bg-color {
+    background-color: rgb(245,245,245);
+}
+
 .nav-link {
     color: rgba(0, 0, 0, 0.9)
 }
@@ -6,9 +11,10 @@
     color: rgb(152, 152, 152)
 }
 
-section {
+/*Изображение на главной*/
+#for_img {
     padding: 100px 0;
-    height: 85vh;    
+    height: 85vh;  
 }
 
 #for_img {
@@ -30,7 +36,7 @@ p {
     margin-top: 10px;
 }
 
-.btn_itd {
+.btn_my_cl {
     display: block;
     max-width: 450px;
     margin: 200px auto 0 auto;
@@ -40,4 +46,27 @@ p {
 h1, h6 {
     margin-top: 30px;
 }
+
+.bg_size, .container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container {
+    border-radius:  12px;  
+}
+
+.bg_size {
+    margin-top: 30px;
+}
+.btn-study {
+    padding: 12px 22px;
+    width: 150px;
+}
+
+.item_my_cl, h2, .btn-study {
+    margin: 15px 5px;
+} 
+    
 
