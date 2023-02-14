@@ -2,7 +2,7 @@
 .bg-color {
     background-color: rgb(245,245,245);
 }
-
+/* цвета кнопки в шапке */
 .nav-link {
     color: rgba(0, 0, 0, 0.9)
 }
@@ -36,7 +36,7 @@ p {
     margin-top: 10px;
 }
 
-.btn_my_cl {
+.ilg_btn_start {
     display: block;
     max-width: 450px;
     margin: 200px auto 0 auto;
@@ -46,7 +46,7 @@ p {
 h1, h6 {
     margin-top: 30px;
 }
-
+/* размеры фона на всех страницах */
 .bg_size, .container {
     width: 100%;
     max-width: 900px;
@@ -60,14 +60,31 @@ h1, h6 {
 .bg_size {
     margin-top: 30px;
 }
+/* кнопка Начать на странице с темами */
 .btn-study {
     padding: 12px 22px;
     width: 150px;
 }
 
-.item_my_cl, h2, .btn-study {
+.ilg_last_theme, h2, .btn-study {
     margin: 15px 5px;
 } 
+
+/*Список тем*/
+.ilg_btn_theme {
+    margin-bottom: 10px;
+    height: 100px;
+    display: flex;
+    width: 100%;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+
+.ilg_icon_done {
+   color: green;
+}
     
 @media screen and (max-width: 540px){
     .course_text {
