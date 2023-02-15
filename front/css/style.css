@@ -99,7 +99,7 @@ h1, h6 {
         height: 55vh;
         align-items: end;
     }
-    h2 {
+    #welcome_text {
         font-size: 32px;
         color: white;
     }
